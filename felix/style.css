@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+section  {
+    background-image: url(/img/gray-laptop-computer-showing-html-codes-in-shallow-focus-160107\ \(1\).jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.text-img {
+    position: relative;
+    top: 30%;
+    color: snow;
+    
+}
+
+h1, h3 {
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+nav {
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+.brand-logo {
+    margin-left: 12px;
+}
+
+blockquote {
+    font-size: 22px;
+    font-style: italic;
+}
+
+ul {
+    font-weight: 600;
+}
+
+.container > blockquote > p > a {
+    font-size: 26px;
+}
+
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .text-img {
+        color: black;
+    }
+  }
+
